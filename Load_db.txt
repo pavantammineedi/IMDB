@@ -1,0 +1,100 @@
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy aliases FROM ’C:/Users/Pavan/Desktop/SEM 2/
+DMQL/Final project/TSV files/Aliases.tsv’ delimiter E’
+’
+null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy titles FROM ’C:/Users/Pavan/Desktop/SEM 2/DMQL/
+Final project/TSV files/titles.tsv’ delimiter E’
+’ null as
+’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy writers FROM ’C:/Users/Pavan/Desktop/SEM 2/DMQL/
+Final project/TSV files/writers.tsv’ delimiter E’
+’ null as
+’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy title ratings FROM ’C:/Users/Pavan/Desktop/SEM 2
+/DMQL/Final project/TSV files/title ratings.tsv’
+delimiter E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy title genres FROM ’C:/Users/Pavan/Desktop/SEM 2
+/DMQL/Final project/TSV files/title genres.tsv’
+delimiter E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy principals FROM ’C:/Users/Pavan/Desktop/SEM 2
+/DMQL/Final project/TSV files/principals.tsv’ delimiter
+E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy names FROM ’C:/Users/Pavan/Desktop/SEM 2/DMQL/
+Final project/TSV files/names .tsv’ delimiter E’
+’ null as
+’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy names worked as FROM ’C:/Users/Pavan/Desktop/SEM 2/
+DMQL/Final project/TSV files/name worked as.tsv’
+delimiter E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy known for FROM ’C:/Users/Pavan/Desktop/SEM 2/DMQL/
+Final project/TSV files/known for.tsv’ delimiter E’
+’ null
+as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy had role FROM ’C:/Users/Pavan/Desktop/SEM 2/DMQL/
+Final project/TSV files/had role.tsv’ delimiter E’
+’ null
+as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy episode belongs to FROM
+’C:/Users/Pavan/Desktop/SEM 2
+/DMQL/Final project/TSV files/episode belongs to.tsv’
+delimiter E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy directors FROM ’C:/Users/Pavan/Desktop/SEM 2
+/DMQL/Final project/TSV files/directors.tsv’ delimiter
+E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy aliases types FROM ’C:/Users/Pavan/Desktop/
+SEM 2/DMQL/Final project/TSV files/Aliases types.tsv’
+delimiter E’
+’ null as ’\N’ csv header;
+• C:/Program Files/PostgreSQL/14/bin psql -U postgres
+\c IMDB
+SET client encoding = ’UTF8’;
+\copy aliases attributes FROM ’C:/Users/Pavan/Desktop
+/SEM 2/DMQL/Final project/TSV
+files/Aliases attributes.tsv’ delimiter E’
+’ null as ’\N’ csv
+header;
